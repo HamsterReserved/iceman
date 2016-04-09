@@ -177,9 +177,6 @@ footer.article-footer
 
 //page nav
 .article-nav
-  padding 0 10%
-  @media mini
-    padding 0 4%
   strong
     font-size 0.6em
   a
@@ -194,7 +191,9 @@ footer.article-footer
     width 100%
     float left
     strong
-      padding-left 1.8em
+      padding-left 9%
+    span
+      padding-left 6%
     span:before
       font-family font-icon-family
       font-smoothing()
@@ -202,24 +201,21 @@ footer.article-footer
       padding-right 0.5em
     @media mini
       width 45%
-      float left
   .next
     width 100%
-    float left
-    text-align left
+    float right
+    text-align right
     strong
-      padding-left 1.5em
-    span:before
+      padding-right 9%
+    span
+      padding-right 6%
+    span:after
       font-family font-icon-family
       font-smoothing()
       content "\f101"
       padding-right 0.5em
     @media mini
       width 45%
-      float right
-      text-align right
-      strong
-        padding-right 1.8em
       span:before
         content none
       span:after

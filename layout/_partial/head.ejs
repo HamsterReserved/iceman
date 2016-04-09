@@ -32,6 +32,7 @@
     <% } else if (page.content){ %>
     <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
     <% } %>
+    <meta name="theme-color" content="#329ad2">
     <% if (page.keywords){ %><meta name="keywords" content="<%= page.keywords %>"><% } %>
     <% if (theme.author.twitter){ %>
     <meta name="twitter:card" content="summary" />

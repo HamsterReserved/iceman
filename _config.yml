@@ -64,6 +64,10 @@ author:
   facebook:   ## e.g. yangjian for https://favebook.com/yangjian
   tsina:      ## e.g. 1664838973  Your weibo ID,It will be used in share button.
 
+#### Code highlight
+highlight:
+  enable: true
+
 #### Comment
 duoshuo: 
   enable: false  ## duoshuo.com
